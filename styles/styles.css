@@ -1,168 +1,165 @@
 @font-face {
+  font-weight: 400;
   font-family: "PT Sans";
   font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/ptsans-400.woff2") format("woff2");
+
   font-display: swap;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
 }
 
 @font-face {
+  font-weight: 700;
   font-family: "PT Sans";
   font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/ptsans-700.woff2") format("woff2");
+
   font-display: swap;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  font-family: "PT Sans", sans-serif;
   text-align: center;
   color: #000000;
+
   background-color: #ffffff;
 }
 
 .search-hotel-button,
 .subscribe-button {
-  font-family: inherit;
+  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  font-weight: 700;
+  font-family: inherit;
   text-align: center;
   color: #ffffff;
-  background-color: #756157;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #756157;
 }
 
 .main-header {
   color: #000000;
-  background: #ffffff;
+
+  background-color: #ffffff;
 }
 
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  font-weight: 700;
   color: inherit;
-  background-color: #ffffff;
-  text-decoration: none;
   text-transform: capitalize;
+  text-decoration: none;
+
+  background-color: #ffffff;
 }
 
 .promo {
   color: #ffffff;
-  background: #000000;
+
+  background-color: #000000;
   background-image: url("../images/index-background.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .advantages {
   color: #000000;
-  background: #ffffff;
+
+  background-color: #ffffff;
 }
 
 .advantages-header-title,
 .search-hotel-title,
 .subscribe-title {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
 .advantage-title {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
 .advantages-header-text,
 .search-hotel-text,
 .subscribe-description {
-  font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
-  font-weight: 400;
 }
 
 .advantage-item:nth-child(1),
 .advantage-item:nth-child(3) {
   color: #ffffff;
-  background: #82B3D3;
+
+  background-color: #82b3d3;
 }
 
 .advantages-city,
 .advantage-item:nth-child(4),
 .advantage-item:nth-child(6) {
-  background: rgba(131, 179, 211, 0.12);
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantage-item-icon-food {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
 .advantage-item:nth-child(5) {
-  background: rgba(131, 179, 211, 0.2)
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .subscribe {
   color: #ffffff;
-  background: #000000;
+
+  background-color: #000000;
   background-image: url("../images/subscribe-background.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .subscribe-button {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 
 .footer-contacts-phone {
-  font-family: inherit;
-  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
   color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+
   background-color: #ffffff;
 }
 
 .filter {
   color: #ffffff;
-  background: #000000;
+
+  background-color: #000000;
   background-image: url("../images/catalog-background.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .inner-header-tittle {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 60px;
   line-height: 78px;
-  font-weight: 700;
-}
-
-.form {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
 }
 
 .catalog-filter-title {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  font-weight: 700;
 }
 
 .hotel-sort,
@@ -170,11 +167,10 @@ body {
 .select-control,
 .select-quantity,
 .amount-hotels {
-  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  font-weight: 400;
   color: #333333;
+
   background-color: #ffffff;
 }
 
@@ -182,79 +178,77 @@ body {
   font-family: inherit;
   text-align: center;
   color: #333333;
-  background-color: #ffffff;
   text-decoration: none;
-}
 
-.product-list b {
-  font-weight: 400;
+  background-color: #ffffff;
 }
 
 .button-apply {
-  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 700;
+  font-family: inherit;
   text-align: center;
   color: #ffffff;
-  background-color: #82B3D3;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #82b3d3;
 }
 
 .button-reset {
-  font-family: inherit;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
+  font-family: inherit;
   text-align: center;
   color: #ffffff;
-  background-color: transparent;
   text-decoration: none;
+
+  background-color: transparent;
 }
 
 .hotel-sort-title {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  font-weight: 700;
   color: #000000;
-  background-color: #ffffff;
   text-transform: uppercase;
+
+  background-color: #ffffff;
 }
 
 .product-card-link {
-  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
   color: #000000;
-  background-color: #ffffff;
   text-decoration: none;
+
+  background-color: #ffffff;
 }
 
 .product-card-rating {
-  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
 }
 
 .product-card-button.detail,
 .favorites {
-  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 700;
+  font-family: inherit;
   text-align: center;
   color: #ffffff;
-  background-color: #756157;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #756157;
 }
 
 .product-card-button.favorites {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
