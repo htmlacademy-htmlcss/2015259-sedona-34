@@ -166,8 +166,8 @@ body {
 
 .advantages-list {
   display: flex;
-  width: 1200px;
   flex-wrap: wrap;
+  width: 1200px;
   margin: 0;
   padding: 0;
 
@@ -198,7 +198,7 @@ body {
 .advantage-item {
   display: flex;
   flex-wrap: wrap;
-  }
+}
 
 .advantages-city {
   display: flex;
@@ -206,25 +206,28 @@ body {
   margin: 0;
   padding: 0;
 
-    color: #000000;
+  color: #000000;
 
   background-color: #ffffff;
 }
 
-.text-advantage, .advantage-item-icon-home,
-.advantage-item-icon-food, .advantage-item-icon-gift {
+.text-advantage,
+.advantage-item-icon-home,
+.advantage-item-icon-food,
+.advantage-item-icon-gift {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 400px;
   min-height: 384px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+
   text-align: center;
 }
 
-.promo-text-image{
-  width: 800px;
-  height: 384px;
+.promo-text-image {
+  width: 458px;
+  height: 352px;
 }
 
 .advantage-description {
